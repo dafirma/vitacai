@@ -4,18 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link rel="stylesheet" href="stylesheets/style.css"> -->
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link href=“https://fonts.googleapis.com/css?family=Lato&display=swap” rel=“stylesheet”>
   <title>Vitaçai</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">
-            LOGO
+            <img src="images/logoacai.png" alt="logo">
         </div> 
         <div class="container-nav-link">
           <ul>
             <li>
-              <a href="#container-main-info"><span>De donde viene</span></a>
+              <a href="#container-main-info"><span>¿De donde viene?</span></a>
             </li>
             <li>
               <a href="#container-slide-products"><span>Produtos</span></a>
@@ -28,74 +29,95 @@
     </nav>
     <main class="main-container">
       <section class="container-slide-header">
-        <div>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam illo ex vitae? Mollitia, eius nihil vero doloremque 
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellat inventore </p>
-          <button><a href="#container-slide-products">COMPRAR</a></button>
-          <div>
-            <h2>IMAGE</h2>
+        <div class="container-text-header">
+          <div class="text-header">
+              <h1>
+                  Descubre el mejor açaí: del Amazonas a tu casa
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellat inventore Dolores soluta nihil, tenetur reiciendis fuga a mollitia, tempora facere ex, ducimus dignissimos laboriosam assumenda
+                </p>  
+          </div>
+          <div class="btn-container">
+              <button class="btn-main"><a href="#container-slide-products">COMPRAR</a></button>
+          </div>  
+          <div class="container-photo-header">
+            <img src="images/açaí-bowl-en-zaragoza-cocina-de-keyla1.jpeg" alt="acai-header">
           </div>
         </div>
       </section>
       <section id="container-main-info">
-        <div>
-          <h2>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores soluta nihil, tenetur reiciendis fuga a mollitia, tempora facere ex, ducimus dignissimos laboriosam assumenda quasi 
-            quibusdam eius rem animi delectus praesentium.
-          </h2>    
-        </div>
-        <div class="container-photos">
-          <div class="container-save-amazon">
-              <img src="#" alt="imageproduct">
-            <button>SAVE AMAZON</button>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium</p>
+          <div class="frase-sec-2">
+            <h2>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores soluta nihil, tenetur reiciendis fuga a mollitia, tempora facere ex, ducimus dignissimos laboriosam assumenda quasi 
+              quibusdam eius rem animi delectus praesentium.
+            </h2>    
           </div>
-          <div class="container-benefits">
-              <img src="#" alt="imageproduct">
-              <button>BENEFITS</button>
+          <div class="container-photos">
+            <div class="container-save-amazon">
+              <img src="images/palmeras.png" alt="imageproduct">
+              <div class="saveamazontexto">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium</p>
-          </div>
-        </div>
-      </section>
-      <section id="container-slide-products">
-        <div class="card-product">
-          <div>
-            <img src="#" alt="imageproduct">
-          </div>
-          <div>
-            <p>lorem ipsum</p>
-            <button>
-              COMPRAR
-            </button>
-          </div>
-        </div>
-        <div class="card-product">
-            <div>
-              <img src="#" alt="imageproduct">
-            </div>
-            <div>
-              <p>lorem ipsum</p>
-              <button>
-                COMPRAR
-              </button>
+            <a> SAVE AMAZON</a>
             </div>
           </div>
-      </section>
+            <div class="container-benefits">
+                <img src="images/cucharaacai.png" alt="imageproduct">
+                <div class="container-benefits-texto">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium</p>
+              <a>+ INFO</a>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="container-slide-products">
+            <div id="slider">
+                <a href="#" class="control_next">></a>
+                <a href="#" class="control_prev"><</a>
+                <ul>
+                  <li>
+                    <div class = "slide_card">
+                        <img src="images/acai-removebg.png" alt="producto 1">
+                        <button>Comprar</button>
+                        <p>Product 1</p>           
+                    </div>
+                  </li>
+                  <li>
+                      <div class = "slide_card">
+                        <div><img src="images/acai-removebg.png" alt="producto 1"></div>
+                          
+                          <button>Comprar</button>
+                          <p>Product 1</p>           
+                      </div>
+                    </li>
+                    <li>
+                        <div class = "slide_card">
+                            <img src="images/acai-removebg.png" alt="producto 1">
+                            <button>Comprar</button>
+                            <p>Product 1</p>           
+                        </div>
+                      </li>
+                      <li>
+                          <div class = "slide_card">
+                              <img src="images/acai-removebg.png" alt="producto 1">
+                              <button>Comprar</button>
+                              <p>Product 1</p>           
+                          </div>
+                        </li>
+                </ul>  
+              </div>
+          </section>
   </main>
   <footer>
       <div class="container-footer">
-        <ul>
-          <li>
-              <img src="#" alt="imagelink">
-          </li>
-          <li>
-              <img src="#" alt="imagelink">
-          </li>
-        </ul>
+        
       </div>
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+     <script src="stylesheets/page.js"></script>
 </body>
 </html>
