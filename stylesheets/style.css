@@ -1,0 +1,42 @@
+* {
+  margin: 0 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: blueviolet;
+
+}
+.logo{
+  width: 50%;
+}
+.container-nav-link{
+  width: 50%;
+  
+}
+
+.container-nav-link a{
+ /*  text-decoration: none;
+  padding-right: 5%; */
+  
+}
+.container-nav-link ul{
+  display: flex;
+  justify-content: space-between;
+  /* list-style-type: none;
+  justify-content: flex-end; */
+  
+}
+.container-nav-link span{
+  color: white;
+}
+
+.container-nav-link li{
+  /* padding-right: 5%; */
+}
+.container-slide-header{
+
+}
